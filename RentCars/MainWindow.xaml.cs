@@ -24,5 +24,15 @@ namespace RentCars
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void ShowCars(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Cars");
+        }
+
     }
 }

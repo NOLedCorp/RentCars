@@ -6,8 +6,172 @@
         xmlns:local="clr-namespace:RentCars"
         mc:Ignorable="d"
         WindowState="Maximized"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Аренда автомобилей" Height="450" Width="800">
+    <Page>
+        <Grid>
+        <DockPanel >
+
+            <DockPanel DockPanel.Dock="Top" LastChildFill="False" Background="LightBlue">
+                <Border CornerRadius="5" BorderThickness="1" BorderBrush="LightBlue" Margin="10,10">
+                    <Button DockPanel.Dock="Left" Content="Автомобили"  Padding="10,2" Click="ShowCars"/>
+                </Border>
+                <Button DockPanel.Dock="Left" Content="Условия аренды" Margin="10,10" Padding="10,2"/>
+                <Button DockPanel.Dock="Left" Content="Отзывы" Margin="10,10" Padding="10,2"/>
+            </DockPanel>
+            
+            
+            <ScrollViewer DockPanel.Dock="Left">
+                <WrapPanel>
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Top" Height="200" Width="250" Orientation="Vertical" >
+                                <Label  Margin="10" DockPanel.Dock="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Модель</Label>
+                                <Image Source="Resources/Caddy.jpg" Margin="10,0" />
+
+                            </StackPanel>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Забронировать</Button>
+                        </DockPanel>
+                    </Border>
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Top" Height="200" Width="250" Orientation="Vertical" >
+                                <Label  Margin="10" DockPanel.Dock="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Модель</Label>
+                                <Image Source="Resources/Caddy.jpg" Margin="10,0" />
+
+                            </StackPanel>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Забронировать</Button>
+                        </DockPanel>
+                    </Border>
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Top" Height="200" Width="250" Orientation="Vertical" >
+                                <Label  Margin="10" DockPanel.Dock="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Модель</Label>
+                                <Image Source="Resources/Caddy.jpg" Margin="10,0" />
+
+                            </StackPanel>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Забронировать</Button>
+                        </DockPanel>
+                    </Border>
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Top" Height="200" Width="250" Orientation="Vertical" >
+                                <Label  Margin="10" DockPanel.Dock="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Модель</Label>
+                                <Image Source="Resources/Caddy.jpg" Margin="10,0" />
+
+                            </StackPanel>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Забронировать</Button>
+                        </DockPanel>
+                    </Border>
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Top" Height="200" Width="250" Orientation="Vertical" >
+                                <Label  Margin="10" DockPanel.Dock="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Модель</Label>
+                                <Image Source="Resources/Caddy.jpg" Margin="10,0" />
+
+                            </StackPanel>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Забронировать</Button>
+                        </DockPanel>
+                    </Border>
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Top" Height="200" Width="250" Orientation="Vertical" >
+                                <Label  Margin="10" DockPanel.Dock="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Модель</Label>
+                                <Image Source="Resources/Caddy.jpg" Margin="10,0" />
+
+                            </StackPanel>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Забронировать</Button>
+                        </DockPanel>
+                    </Border>
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Top" Height="200" Width="250" Orientation="Vertical" >
+                                <Label  Margin="10" DockPanel.Dock="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Модель</Label>
+                                <Image Source="Resources/Caddy.jpg" Margin="10,0" />
+
+                            </StackPanel>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Забронировать</Button>
+                        </DockPanel>
+                    </Border>
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Top" Height="200" Width="250" Orientation="Vertical" >
+                                <Label  Margin="10" DockPanel.Dock="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Модель</Label>
+                                <Image Source="Resources/Caddy.jpg" Margin="10,0" />
+
+                            </StackPanel>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Забронировать</Button>
+                        </DockPanel>
+                    </Border>
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Top" Height="200" Width="250" Orientation="Vertical" >
+                                <Label  Margin="10" DockPanel.Dock="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Модель</Label>
+                                <Image Source="Resources/Caddy.jpg" Margin="10,0" />
+
+                            </StackPanel>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Забронировать</Button>
+                        </DockPanel>
+                    </Border>
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Top" Height="200" Width="250" Orientation="Vertical" >
+                                <Label  Margin="10" DockPanel.Dock="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Модель</Label>
+                                <Image Source="Resources/Caddy.jpg" Margin="10,0" />
+
+                            </StackPanel>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Забронировать</Button>
+                        </DockPanel>
+                    </Border>
+                    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
+                        <DockPanel>
+                            <StackPanel DockPanel.Dock="Top" Height="200" Width="250" Orientation="Vertical" >
+                                <Label  Margin="10" DockPanel.Dock="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Модель</Label>
+                                <Image Source="Resources/Caddy.jpg" Margin="10,0" />
+
+                            </StackPanel>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Забронировать</Button>
+                        </DockPanel>
+                    </Border>
+
+                </WrapPanel>
+            </ScrollViewer>
+            <StackPanel  VerticalAlignment="Stretch" DockPanel.Dock="Right"  Background="LightBlue">
+                <Label Margin="0,0,0,5" FontSize="18">Фильтры</Label>
+                <GroupBox Padding="5" Margin="5">
+                    <GroupBox.Header>
+                        <Button Background="Lavender">Тип кузова</Button>
+                    </GroupBox.Header>
+                    <StackPanel>
+                        <RadioButton Margin="3">Хетчбэк</RadioButton>
+                        <RadioButton Margin="3">Седан</RadioButton>
+                        <RadioButton Margin="3">Универсал</RadioButton>
+                        <RadioButton Margin="3">Кроссовер</RadioButton>
+                        <RadioButton Margin="3">Минивен</RadioButton>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Padding="5" Margin="5">
+                    <GroupBox.Header>
+                        <Button Background="Lavender">Топливо</Button>
+                    </GroupBox.Header>
+                    <StackPanel>
+                        <RadioButton Margin="3">Бензин</RadioButton>
+                        <RadioButton Margin="3">Дизель</RadioButton>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Padding="5" Margin="5">
+                    <GroupBox.Header>
+                        <Button Background="Lavender">Количество пассажиров</Button>
+                    </GroupBox.Header>
+                    <StackPanel>
+                        <RadioButton IsChecked="True" Margin="3">3</RadioButton>
+                        <RadioButton Margin="3">5</RadioButton>
+                        <RadioButton Margin="3">7</RadioButton>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+        </DockPanel>
         
     </Grid>
+    </Page>
+    
 </Window>
