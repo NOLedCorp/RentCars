@@ -1,25 +1,18 @@
-﻿<Window x:Class="RentCars.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RentCars"
-        mc:Ignorable="d"
-        WindowState="Maximized"
-        Title="Аренда автомобилей" Height="450" Width="800">
-    <Page>
-        <Grid>
+﻿<Page 
+      x:Class="RentCars.MainWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    WindowWidth="1000"
+      WindowTitle="Аренда автомобилей" Title="Аренда автомобилей"  Background="White">
+    <Grid>
         <DockPanel >
 
             <DockPanel DockPanel.Dock="Top" LastChildFill="False" Background="LightBlue">
-                <Border CornerRadius="5" BorderThickness="1" BorderBrush="LightBlue" Margin="10,10">
-                    <Button DockPanel.Dock="Left" Content="Автомобили"  Padding="10,2" Click="ShowCars"/>
-                </Border>
-                <Button DockPanel.Dock="Left" Content="Условия аренды" Margin="10,10" Padding="10,2"/>
-                <Button DockPanel.Dock="Left" Content="Отзывы" Margin="10,10" Padding="10,2"/>
+                <Button DockPanel.Dock="Left" Content="Автомобили" Margin="10,10"  Padding="10,2" Click="ShowCars"/>
+                <Button DockPanel.Dock="Left" Content="Условия аренды" Margin="10,10" Padding="10,2" Click="ShowInfo"/>
             </DockPanel>
-            
-            
+
+
             <ScrollViewer DockPanel.Dock="Left">
                 <WrapPanel>
                     <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
@@ -29,7 +22,7 @@
                                 <Image Source="Resources/Caddy.jpg" Margin="10,0" />
 
                             </StackPanel>
-                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Забронировать</Button>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Click="BookCar">Забронировать</Button>
                         </DockPanel>
                     </Border>
                     <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
@@ -39,7 +32,7 @@
                                 <Image Source="Resources/Caddy.jpg" Margin="10,0" />
 
                             </StackPanel>
-                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Забронировать</Button>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Click="GetCars">Забронировать</Button>
                         </DockPanel>
                     </Border>
                     <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
@@ -170,8 +163,6 @@
                 </GroupBox>
             </StackPanel>
         </DockPanel>
-        
+
     </Grid>
-    </Page>
-    
-</Window>
+</Page>
