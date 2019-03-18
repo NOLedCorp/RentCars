@@ -14,7 +14,7 @@
 
 
             <ScrollViewer DockPanel.Dock="Left">
-                <WrapPanel>
+                <WrapPanel x:Name="CarsPanel">
                     <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
                         <DockPanel>
                             <StackPanel DockPanel.Dock="Top" Height="200" Width="250" Orientation="Vertical" >
@@ -22,7 +22,7 @@
                                 <Image Source="Resources/Caddy.jpg" Margin="10,0" />
 
                             </StackPanel>
-                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Click="BookCar">Забронировать</Button>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center" >Забронировать</Button>
                         </DockPanel>
                     </Border>
                     <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
@@ -32,7 +32,7 @@
                                 <Image Source="Resources/Caddy.jpg" Margin="10,0" />
 
                             </StackPanel>
-                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Click="GetCars">Забронировать</Button>
+                            <Button  Margin="10" DockPanel.Dock="Bottom" Padding="10"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center" >Забронировать</Button>
                         </DockPanel>
                     </Border>
                     <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10" Margin="10">
